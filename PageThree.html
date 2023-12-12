@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html> 
+    <body>
+        <script src = "//ajax.gooleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            <script src = "system/js/scripts.js"></script>
+
+            <center-left><h1>If the information in the medical chart is not correct please make corrections.</h1>
+            <d1>
+                <h2>It's Tyme to get Started!</h2>
+        <head>
+            <style>
+                    body {
+                        background-color: tan;
+                        padding: 20x;
+                    }
+                    /*Style the header*/
+                    .header{
+                        background-color: #000000;
+                        padding: 30px;
+                        text-align: center;
+                        border: 1px black;
+                        margin: 20px 40px 20px 40px;
+                    }
+
+                    ul{
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        background-color: tan;
+                        float: left;
+                        width: 100%;
+                    }
+                    div{
+                        background-color: #03cffc;
+                        width: 100%;
+                        height:100%;
+                    }
+                    li{
+                        float:left;
+                        border-right: 1px solid #bbb;
+                    }
+                    li:last-child{
+                        border-right: none;
+                    }
+                    li a{
+                        display:block;
+                        color: #000;
+                        padding: 8px 16px;
+                        text-decoration: none;
+                    }
+                    li a:hover{
+                        background-color: black;
+                        color: white;
+                    }
+            </style>
+        </head>
+            <img src= "ClockImage.jpg" width="150" height="150" />
+            <br></br>
+            <ul>
+                <li><a href="PageOne.html">Home Page</a></li>
+                <li><a href="PageTwo.html">Create an Account</a></li>
+                <li><a href="PageThree.html">Medical History</a></li>
+                <li><a href="PageFour.html">ParentHood</a></li>
+                <li><a href="PageFive.html">Skin Type</a></li>
+                <li><a href="PageSix.html">Goal's</a></li>
+                <li><a href="PageSeven.html">FaceTyme</a></li>
+                <li><a href="PageEight.html">Survey</a></li>
+                <li><a href="PageNine.html">Shipping</a></li>
+                <li><a href="PageTen.html">Billing</a></li>
+                <li><a href="PageEleven.html">Credit card</a></li>
+            </ul>
+            <br/>
+            <hr/>
+
+            <h1>Upload any present or previous medical history.</h1>
+            <p><b>Please fill in the required boxes. If none of these apply to you please insert "none" into the box.></p>
+            <form>
+                Allergies: <input type="text" id="allergies" name="allergies"/>
+                <br></br>
+                Medication/Supplements: <input type="text" id="medication/supplements" name="medication/supplements"/>
+                <br></br>
+                Medical condition: <input type="text" id="medical condition" name="medical condition"/>
+                <br></br>
+                Contraceptions: <input type="text" id="contraceptions" name="contraceptions"/>
+                <br></br>
+                <input type="button" onclick="Submit_Info()" value="Submit">
+                <hr>
+            </form>
+            <p>2023 K.Lawless Application</p>
+    </body>
+</html>
